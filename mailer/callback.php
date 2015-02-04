@@ -47,7 +47,7 @@
 			$mes .= '<tr><td>Имя</td><td>' . $this->data['name'] . '</td></tr>';
 			$mes .= '<tr><td>Телефон</td><td>' . $this->data['phone'] . '</td></tr>';
 			$mes .= '<tr><td>Количество</td><td>' . $this->data['count'] . '</td></tr>';
-			$mes .= '<tr><td>Email</td><td>' . $this->data['mail'] . '</td></tr>';
+			$mes .= '<tr><td>Email</td><td>' . $this->data['email'] . '</td></tr>';
 			$mes .= '<tr><td colspan="2"><strong>Адрес:</strong></td></tr>';
 			$mes .= '<tr><td colspan="2">' . $this->data['address'] . '</td></tr>';
 			$mes .= '</table>';
